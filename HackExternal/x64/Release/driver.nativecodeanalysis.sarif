@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/driver.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "089c57111e4534f9f82a2cb11b7aea154a5610c3757e87b7ff5b482b87bbf7ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/driver.h"
+          },
+          "hashes": {
+            "sha-256": "a6ad65e4da53fe672056cf166c996ec1a96ed0cfa58dc02d115a3ff792a32960"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/driverdefs.h"
+          },
+          "hashes": {
+            "sha-256": "e9d45b4fc4ade7a9e174fd8c5e9032cd5a5ef1dae2628cb3fb36970617accbd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9.h"
+          },
+          "hashes": {
+            "sha-256": "6c1c418a584ace286e6d662868bc051cb1b91817a8e23270c3e61f7b155b314a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9types.h"
+          },
+          "hashes": {
+            "sha-256": "aab4990c88f745057f994ecb1b651ac2a7a7c2cb4b01e63896a10de5825d6459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9caps.h"
+          },
+          "hashes": {
+            "sha-256": "55ddce31499d02bf9b40c77cfb078876bc1999c9e94cb99278141a5034afdf90"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\x64\Release\AimAssist.exe.lastcodeanalysissucceeded
+C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\x64\Release\NativeCodeAnalysis.read.1.tlog

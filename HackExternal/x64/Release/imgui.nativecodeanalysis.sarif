@@ -1,0 +1,1149 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'window->RootWindowForNav' contains the same NULL value as 'parent_window' did. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 5708,
+                  "startColumn": 12,
+                  "endLine": 5708,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::UpdateWindowParentAndRootLinks",
+                  "decoratedName": "?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5702,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5703,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5704,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "'parent_window' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5706,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5708,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5711,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5708,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5708,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "'parent_window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'window' contains the same NULL value as 'g.NavWindow' did. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 9272,
+                  "startColumn": 16,
+                  "endLine": 9272,
+                  "endColumn": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::NavUpdate",
+                  "decoratedName": "?NavUpdate@ImGui@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9023,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9024,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9026,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9027,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9028,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9035,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9036,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9037,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9045,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9071,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9073,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 54
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9073,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 54
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9072,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9076,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9078,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9079,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9080,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9081,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9084,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9088,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9097,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9108,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9109,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9113,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9115,
+                            "startColumn": 67
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9119,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9122,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9123,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9126,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9165,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9166,
+                            "startColumn": 88
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9179,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9181,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9183,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9186,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9188,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9191,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9212,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9217,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9218,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9222,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9224,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9225,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9226,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9228,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9231,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9233,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9234,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9236,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9239,
+                            "startColumn": 77
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9262,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9263,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9264,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9269,
+                            "startColumn": 74
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9271,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'window' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 9272,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a4487d2cf2a8f5a17b0f5ef8687a6a6c0aedd729bb143cc27d1741a9d31e37ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "4f72c9f5ca90f7b92e4a584e3a8a7c9f493f26ac85630c3b392064e070683a26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "0e0447c96787aae0ca6397c9f6f79f238e8b487bead6866eb381c47bd359a371"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "fae1868e74a1d227e53d6efd08fbdc4ce01a5a077d4fd79be0ab2d46aee7a7f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "fd8408584842d13ca4a3f5b002a77c80491626d289a96463ba52c11981816024"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXFLOAT16::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXFLOAT16@@QEAA@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXFLOAT16::value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR2::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR2::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::w</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::w</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::c</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::d</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXFLOAT16::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXFLOAT16@@QEAA@M@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXFLOAT16::value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR2::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::w</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXVECTOR4::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::w</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXQUATERNION::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::c</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXPLANE::d</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QEAA@PEBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>D3DXCOLOR::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>function.h</FILENAME>
+      <LINE>169</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>GetBoneIndex</FUNCTION>
+    <DECORATED>?GetBoneIndex@@YA?AUFTransform@@_KH@Z</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>function.h</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>108</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>GetNameFromFName</FUNCTION>
+    <DECORATED>?GetNameFromFName@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>function.h</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>103</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>GetNameFromFName</FUNCTION>
+    <DECORATED>?GetNameFromFName@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>function.h</FILENAME>
+      <LINE>193</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>GetNameFromFName</FUNCTION>
+    <DECORATED>?GetNameFromFName@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>overlay.h</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>string_To_UTF8</FUNCTION>
+    <DECORATED>?string_To_UTF8@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>overlay.h</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>string_To_UTF8</FUNCTION>
+    <DECORATED>?string_To_UTF8@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>overlay.h</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>string_To_UTF8</FUNCTION>
+    <DECORATED>?string_To_UTF8@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>overlay.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>string_To_UTF8</FUNCTION>
+    <DECORATED>?string_To_UTF8@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>overlay.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>string_To_UTF8</FUNCTION>
+    <DECORATED>?string_To_UTF8@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26820</DEFECTCODE>
+    <DESCRIPTION>This is a potentially expensive copy operation. Consider using a reference unless a copy is required (p.9).</DESCRIPTION>
+    <FUNCTION>CallAimbot</FUNCTION>
+    <DECORATED>?CallAimbot@@YAXXZ</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>201</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>GameCache</FUNCTION>
+    <DECORATED>?GameCache@@YAXXZ</DECORATED>
+    <FUNCLINE>166</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26820</DEFECTCODE>
+    <DESCRIPTION>This is a potentially expensive copy operation. Consider using a reference unless a copy is required (p.9).</DESCRIPTION>
+    <FUNCTION>RenderVisual</FUNCTION>
+    <DECORATED>?RenderVisual@@YAXXZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>660</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>Non-integer passed as _Param_(2) when an integer is required in call to 'printf' Actual type: 'void *'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>652</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>675</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>Non-integer passed as _Param_(2) when an integer is required in call to 'printf' Actual type: 'struct HWND__ *'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>652</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>701</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26815</DEFECTCODE>
+    <DESCRIPTION>The pointer is dangling because it points at a temporary instance which was destroyed.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>652</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

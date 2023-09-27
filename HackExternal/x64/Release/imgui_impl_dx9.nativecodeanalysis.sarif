@@ -1,0 +1,289 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 280,
+                  "startColumn": 52,
+                  "endLine": 280,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 280,
+                  "startColumn": 52,
+                  "endLine": 280,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 84,
+                  "endLine": 281,
+                  "endColumn": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 56,
+                  "endLine": 295,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 93,
+                  "endLine": 295,
+                  "endColumn": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 93,
+                  "endLine": 295,
+                  "endColumn": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 124,
+                  "endLine": 295,
+                  "endColumn": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui_ImplDX9_CreateFontsTexture",
+                  "decoratedName": "?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imgui_impl_dx9.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "531820e3d592eb56ffe8ef7efd00bb055971ebdb64a2eb8703373d52af6143ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "4f72c9f5ca90f7b92e4a584e3a8a7c9f493f26ac85630c3b392064e070683a26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "0e0447c96787aae0ca6397c9f6f79f238e8b487bead6866eb381c47bd359a371"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui_impl_dx9.h"
+          },
+          "hashes": {
+            "sha-256": "cdfcac69b4783d40668b2fb1a4864bf30e07c7cbbe6bfdeaea7bb80e78b9a98e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9.h"
+          },
+          "hashes": {
+            "sha-256": "6c1c418a584ace286e6d662868bc051cb1b91817a8e23270c3e61f7b155b314a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9types.h"
+          },
+          "hashes": {
+            "sha-256": "aab4990c88f745057f994ecb1b651ac2a7a7c2cb4b01e63896a10de5825d6459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9caps.h"
+          },
+          "hashes": {
+            "sha-256": "55ddce31499d02bf9b40c77cfb078876bc1999c9e94cb99278141a5034afdf90"
+          }
+        }
+      ]
+    }
+  ]
+}

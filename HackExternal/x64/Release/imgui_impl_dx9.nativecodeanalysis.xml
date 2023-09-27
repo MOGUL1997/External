@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>77</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>117</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>98</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\delar\OneDrive\Desktop\Farlight-84-External-main\HackExternal\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>129</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

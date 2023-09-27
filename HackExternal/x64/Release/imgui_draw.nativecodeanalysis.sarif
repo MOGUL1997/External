@@ -1,0 +1,113 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imstb_truetype.h"
+                },
+                "region": {
+                  "startLine": 2111,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbtt__run_charstring",
+                  "decoratedName": "?stbtt__run_charstring@@YAHPEBUstbtt_fontinfo@@HPEAUstbtt__csctx@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/delar/OneDrive/Desktop/Farlight-84-External-main/HackExternal/imgui/imstb_truetype.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bb24084056cd1fe17078b755cbd600d23449173d6a927ad7f067d3ce6fbdd1f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui_draw.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2a2eba5a42a4313cf089e93cdf57eb6365f81b97914483aab3ad6bdb316f9047"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "4f72c9f5ca90f7b92e4a584e3a8a7c9f493f26ac85630c3b392064e070683a26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "0e0447c96787aae0ca6397c9f6f79f238e8b487bead6866eb381c47bd359a371"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "fae1868e74a1d227e53d6efd08fbdc4ce01a5a077d4fd79be0ab2d46aee7a7f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "fd8408584842d13ca4a3f5b002a77c80491626d289a96463ba52c11981816024"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/delar/onedrive/desktop/farlight-84-external-main/hackexternal/imgui/imstb_rectpack.h"
+          },
+          "hashes": {
+            "sha-256": "61eb7950e45d4831faac6629a727ac464ddcfcf199eb27a7b47de02b898ab6ef"
+          }
+        }
+      ]
+    }
+  ]
+}
