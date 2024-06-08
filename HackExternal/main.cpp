@@ -1,6 +1,7 @@
 #include "function.h"
 #include "overlay.h"
 #include "driver.h"
+#include "mutex.h"
 
 namespace OverlayWindow
 {
@@ -20,7 +21,7 @@ enum bones
 	Root = 0,
 	Bip001 = 1,
 	pelvis = 2,
-	spine_01 = 3,
+	spine_01 = 3 + 1,
 	spine_02 = 4,
 	spine_03 = 5,
 	clavicle_l = 6,
@@ -62,8 +63,8 @@ enum bones
 	pinky_02_r = 42,
 	pinky_03_r = 43,
 	RightHandWeaponAttach = 44,
-	neck_01 = 45,
-	head = 46,
+	neck_01 = 45 + 1,
+	head = 46 + 1,
 	BackpackAttach = 47,
 	thigh_l = 48,
 	calf_l = 49,
@@ -674,11 +675,6 @@ int main()
 		ClientToScreen(GameVars.gameHWND, &screenCoords);
 		printf("HWND: %d\n", tWnd);
 	}
-
-	CreateThread(nullptr, NULL, reinterpret_cast<LPTHREAD_START_ROUTINE>(GameCache), nullptr, NULL, nullptr);
-	CreateThread(nullptr, NULL, reinterpret_cast<LPTHREAD_START_ROUTINE>(CallAimbot), nullptr, NULL, nullptr);
-	CreateThread(nullptr, NULL, reinterpret_cast<LPTHREAD_START_ROUTINE>(CallHacks), nullptr, NULL, nullptr);
-
 
 	if (CreateConsole == false)
 		ShowWindow(GetConsoleWindow(), SW_HIDE);
